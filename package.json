@@ -1,0 +1,29 @@
+{
+  "name": "mapa_leaflet",
+  "version": "1.0.0",
+  "description": "proyectos con la libreria leaflet y tiprScript paso apaso",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel ./index.html --open",
+    "build": "npx parcel build ./index.html --public-url '.'" 
+  },
+  "keywords": [
+    "leaflet",
+    "typescript",
+    "maps",
+    "mapas",
+    "geojason",
+    "polyline",
+    "marker",
+    "points"
+  ],
+  "author": "Dotor Hernandez Rafael <RafaelDotorH21@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.7.1",
+    "typescript": "5.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
