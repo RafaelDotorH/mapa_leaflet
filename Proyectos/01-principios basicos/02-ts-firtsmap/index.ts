@@ -1,8 +1,6 @@
-import {Map,tileLayer} from "leaflet";
+import { Map } from 'leaflet';
+import { tileLayerSelect } from '../../../config/tile-layers/functions';
 
-const map = new Map("map").setView([19.2921, -99.6532], 10);
-tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        maxZoom: 19,
-        attribution:
-          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-      }).addTo(map);
+const mymap = new Map('map').setView([43.3082977,-1.9837398], 10);
+
+tileLayerSelect().addTo(mymap);
